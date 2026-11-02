@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 112 112" role="img" aria-labelledby="title desc">
+  <title id="title">MuQ-Jev icon</title>
+  <desc id="desc">Lavender audio bars and a mint checkmark on a rounded dark square.</desc>
+  <rect width="112" height="112" rx="28" fill="#111827"/>
+  <path d="M26 57v17M44 35v39M62 47v27" fill="none" stroke="#C4B5FD" stroke-width="8" stroke-linecap="round"/>
+  <path d="m60 83 12 12 23-34" fill="none" stroke="#5EEAD4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

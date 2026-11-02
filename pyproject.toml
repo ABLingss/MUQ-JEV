@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "muq-jev"
+version = "0.1.0"
+description = "Candidate-based music classification with MuQ-Jev"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "ABLingss"}]
+dependencies = [
+  "torch>=2.6", "torchaudio>=2.6", "transformers==5.12.1",
+  "huggingface_hub>=1.0", "safetensors>=0.5", "numpy>=1.26",
+  "scipy>=1.12", "soundfile>=0.12", "einops>=0.8", "easydict>=1.13",
+  "imageio-ffmpeg>=0.5"
+]
+
+[project.urls]
+Repository = "https://github.com/ABLingss/MUQ-JEV"
+Models = "https://huggingface.co/ABLingss/MUQ-JEV"
+
+[project.scripts]
+muq-jev = "muq_jev.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+muq_jev = ["_muq/LICENSE"]

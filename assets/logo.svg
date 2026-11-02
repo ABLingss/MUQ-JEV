@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="160" viewBox="0 0 600 160" role="img" aria-labelledby="title desc">
+  <title id="title">MuQ-Jev</title>
+  <desc id="desc">A lavender audio waveform and mint checkmark beside the MuQ-Jev wordmark.</desc>
+  <g transform="translate(24 24)">
+    <rect width="112" height="112" rx="28" fill="#111827"/>
+    <path d="M26 57v17M44 35v39M62 47v27" fill="none" stroke="#C4B5FD" stroke-width="8" stroke-linecap="round"/>
+    <path d="m60 83 12 12 23-34" fill="none" stroke="#5EEAD4" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="164" y="107" fill="#111827" font-family="DejaVu Sans, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-3">MuQ-Jev</text>
+</svg>
