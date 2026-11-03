@@ -12,7 +12,7 @@
   </p>
 </div>
 
-**MuQ-Jev** is a ~400M-parameter candidate-based model built on MuQ. It ranks user-provided candidate labels to deliver fast, high-quality music tagging while staying compact enough to run efficiently. It currently supports genre, mood, instruments, voice presence, and vocal gender, and can be extended to more tasks.
+**MuQ-Jev** is a 400M candidate-based model built on MuQ. It ranks user-provided candidate labels to deliver fast, high-quality music tagging while staying compact enough to run efficiently. It currently supports genre, mood, instruments, voice presence, and vocal gender, and can be extended to more tasks.
 
 ## 🗞 News
 
