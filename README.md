@@ -12,8 +12,7 @@
   </p>
 </div>
 
-**MuQ-Jev** is a compact, candidate-based music classification model built on MuQ.
-Supports genre, mood, instruments, voice presence and vocal gender.
+**MuQ-Jev** is a ~400M-parameter candidate-based model built on MuQ. It ranks user-provided candidate labels to deliver fast, high-quality music tagging while staying compact enough to run efficiently. It currently supports genre, mood, instruments, voice presence, and vocal gender, and can be extended to more tasks.
 
 ## 🗞 News
 
@@ -40,7 +39,6 @@ print(result["prediction"])
 
 Uses up to 30 seconds per call. Scores are uncalibrated; custom-candidate performance may vary.
 Use `policy="raw"` for direct model scores, or `device="cpu"` for CPU inference.
-While the model is private, authenticate with your Hugging Face account before downloading.
 
 ## 🧩 Examples
 
